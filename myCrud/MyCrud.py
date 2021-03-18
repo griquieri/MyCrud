@@ -23,7 +23,7 @@ def insert():
         con = mysql.connect(
             host="localhost",
             user="root",
-            passwd="mYsqltest",
+            passwd= 'myPassword",
             database="Mycrud"
         )
         cursor = con.cursor()
@@ -49,7 +49,7 @@ def delete():
         con = mysql.connect(
             host="localhost",
             user="root",
-            passwd="mYsqltest",
+            passwd="myPassword",
             database="Mycrud"
         )
         cursor = con.cursor()
@@ -79,7 +79,7 @@ def update():
         con = mysql.connect(
             host="localhost",
             user="root",
-            passwd="mYsqltest",
+            passwd="myPassword",
             database="Mycrud"
         )
         cursor = con.cursor()
@@ -105,7 +105,7 @@ def get():
         con = mysql.connect(
             host="localhost",
             user="root",
-            passwd="mYsqltest",
+            passwd="myPassword",
             database="Mycrud"
         )
         cursor = con.cursor()
@@ -124,7 +124,7 @@ def show():
     con = mysql.connect(
         host="localhost",
         user="root",
-        passwd="mYsqltest",
+        passwd="myPassword",
         database="Mycrud"
     )
     cursor = con.cursor()
